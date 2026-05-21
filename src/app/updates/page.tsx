@@ -195,15 +195,6 @@ export default async function UpdatesPage({
                                 {post.authorName}
                               </span>
                             )}
-                            <span>
-                              {post.publishedAt
-                                ? new Date(post.publishedAt).toLocaleDateString('en-US', {
-                                    month: 'short',
-                                    day: 'numeric',
-                                    year: 'numeric',
-                                  })
-                                : 'Recent'}
-                            </span>
                           </div>
                         </div>
                       </div>

@@ -361,50 +361,7 @@ function EditorialHome({
           </div>
         </section>
 
-        {/* Statistics Section */}
-        <section className="px-5 py-16 sm:px-8 sm:py-20 lg:px-12 lg:py-24 bg-white">
-          <div className="mx-auto max-w-6xl">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold text-gray-900 mb-4">Trusted by Leading Companies</h2>
-              <p className="text-xl text-gray-600">Our platform delivers real results for press release distribution</p>
-            </div>
-            
-            <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
-              <div className="text-center">
-                <div className="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <span className="text-3xl font-bold text-blue-600">5K+</span>
-                </div>
-                <div className="text-3xl font-bold text-gray-900 mb-2">5,000+</div>
-                <p className="text-gray-600 font-medium">Media Outlets</p>
-                <p className="text-sm text-gray-500 mt-1">Active distribution network</p>
-              </div>
-              <div className="text-center">
-                <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <span className="text-3xl font-bold text-green-600">10M</span>
-                </div>
-                <div className="text-3xl font-bold text-gray-900 mb-2">10M+</div>
-                <p className="text-gray-600 font-medium">Monthly Readers</p>
-                <p className="text-sm text-gray-500 mt-1">Across all platforms</p>
-              </div>
-              <div className="text-center">
-                <div className="w-20 h-20 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <span className="text-3xl font-bold text-purple-600">98%</span>
-                </div>
-                <div className="text-3xl font-bold text-gray-900 mb-2">98%</div>
-                <p className="text-gray-600 font-medium">Success Rate</p>
-                <p className="text-sm text-gray-500 mt-1">Stories published</p>
-              </div>
-              <div className="text-center">
-                <div className="w-20 h-20 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <span className="text-3xl font-bold text-orange-600">24/7</span>
-                </div>
-                <div className="text-3xl font-bold text-gray-900 mb-2">24/7</div>
-                <p className="text-gray-600 font-medium">Support</p>
-                <p className="text-sm text-gray-500 mt-1">Dedicated team available</p>
-              </div>
-            </div>
-          </div>
-        </section>
+
 
         {/* Services Overview */}
         <section className="px-5 py-16 sm:px-8 sm:py-20 lg:px-12 lg:py-24 bg-gray-50">

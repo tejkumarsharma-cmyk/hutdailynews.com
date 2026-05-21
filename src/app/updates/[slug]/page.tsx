@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { ArrowLeft, Calendar, FileText, Globe2, Mail, Phone, Share2, Twitter, Linkedin, Facebook } from 'lucide-react'
+import { ArrowLeft, FileText, Globe2, Mail, Phone, Share2, Twitter, Linkedin, Facebook } from 'lucide-react'
 import { NavbarShell } from '@/components/shared/navbar-shell'
 import { Footer } from '@/components/shared/footer'
 import { SchemaJsonLd } from '@/components/seo/schema-jsonld'
@@ -138,16 +138,6 @@ export default async function UpdateDetailPage({ params }: { params: Promise<{ s
                   {post.authorName}
                 </span>
               )}
-              {post.publishedAt && (
-                <span className="flex items-center gap-1.5">
-                  <Calendar className="h-4 w-4" />
-                  {new Date(post.publishedAt).toLocaleDateString('en-US', {
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric',
-                  })}
-                </span>
-              )}
             </div>
 
             {/* Share */}
@@ -265,15 +255,6 @@ export default async function UpdateDetailPage({ params }: { params: Promise<{ s
                       {relatedPost.summary && (
                         <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500">
                           {relatedPost.summary}
-                        </p>
-                      )}
-                      {relatedPost.publishedAt && (
-                        <p className="mt-auto pt-4 text-xs text-neutral-400">
-                          {new Date(relatedPost.publishedAt).toLocaleDateString('en-US', {
-                            month: 'short',
-                            day: 'numeric',
-                            year: 'numeric',
-                          })}
                         </p>
                       )}
                     </article>

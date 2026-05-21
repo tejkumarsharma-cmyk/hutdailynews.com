@@ -247,60 +247,6 @@ export default function ContactPage() {
           </div>
         </section>
 
-        {/* Office Location */}
-        <section className="px-5 py-16 sm:px-8 sm:py-20 lg:px-12 lg:py-24 bg-gray-50">
-          <div className="mx-auto max-w-6xl">
-            <div className="grid gap-12 lg:grid-cols-2 items-center">
-              <div>
-                <h2 className="text-4xl font-bold text-gray-900 mb-4">Visit Our Office</h2>
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  Stop by our headquarters to discuss your press release needs in person. We're conveniently located in the heart of the media district.
-                </p>
-                
-                <div className="space-y-4">
-                  <div className="flex items-start gap-3">
-                    <MapPin className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
-                    <div>
-                      <p className="font-medium text-gray-900">Address</p>
-                      <p className="text-gray-600">123 Media Plaza, New York, NY 10001</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <Phone className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
-                    <div>
-                      <p className="font-medium text-gray-900">Phone</p>
-                      <p className="text-gray-600">+1 (555) 123-4567</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <Mail className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
-                    <div>
-                      <p className="font-medium text-gray-900">Email</p>
-                      <p className="text-gray-600">info@hutdailynews.com</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <Clock className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
-                    <div>
-                      <p className="font-medium text-gray-900">Office Hours</p>
-                      <p className="text-gray-600">Monday - Friday: 9:00 AM - 6:00 PM EST</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-200">
-                <div className="h-64 bg-gray-100 flex items-center justify-center">
-                  <div className="text-center">
-                    <MapPin className="h-12 w-12 text-blue-600 mx-auto mb-2" />
-                    <p className="text-gray-900 font-medium">Interactive Map</p>
-                    <p className="text-gray-600 text-sm">Click to view location</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
       </main>
 
       <Footer />
